@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d4fde96-2702-4407-ab65-5c054be00086" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PacmanClone/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.PacmanClone/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1d4fde96-2702-4407-ab65-5c054be00086" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AmmoPickUp.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <marker date="1520365075557" expanded="false" signature="6:78" ph="..." />
                 <marker date="1520365075557" expanded="true" signature="120:539" ph="{...}" />
@@ -218,12 +216,12 @@
       <option name="presentableId" value="Default" />
       <updated>1520361848877</updated>
       <workItem from="1520361851571" duration="3269000" />
-      <workItem from="1520367966538" duration="267000" />
+      <workItem from="1520367966538" duration="378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3536000" />
+    <option name="totallyTimeSpent" value="3647000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,7 +234,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -414,7 +411,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AmmoPickUp.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <marker date="1520365075557" expanded="false" signature="6:78" ph="..." />
             <marker date="1520365075557" expanded="true" signature="120:539" ph="{...}" />

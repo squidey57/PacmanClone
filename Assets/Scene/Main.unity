@@ -222,9 +222,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '
-
-'
+  m_Text: 0
 --- !u!222 &338597851
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1038,7 +1036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 1581571713}
-  AmmoText: {fileID: 0}
+  AmmoText: {fileID: 338597850}
 --- !u!1 &1003070120
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,7 +1048,6 @@ GameObject:
   - component: {fileID: 1003070122}
   - component: {fileID: 1003070121}
   - component: {fileID: 1003070124}
-  - component: {fileID: 1003070125}
   m_Layer: 0
   m_Name: Pellets
   m_TagString: Pellet
@@ -1131,17 +1128,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.25
---- !u!114 &1003070125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1003070120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d66b5bc94ffe848148d56aebf57fc3ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1102776060
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,8 +1140,9 @@ GameObject:
   - component: {fileID: 1102776063}
   - component: {fileID: 1102776065}
   - component: {fileID: 1102776064}
-  - component: {fileID: 1102776066}
   - component: {fileID: 1102776067}
+  - component: {fileID: 1102776068}
+  - component: {fileID: 1102776066}
   m_Layer: 0
   m_Name: Derpy Pacman
   m_TagString: Player
@@ -1276,6 +1263,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 744379da2167b43ff838253b13227d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1102776068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1102776060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5480c4967d74014a8583b0d97e95e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1250203791
@@ -1521,7 +1519,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1708801498}
   - component: {fileID: 1708801497}
-  - component: {fileID: 1708801499}
   - component: {fileID: 1708801500}
   m_Layer: 0
   m_Name: Ammo Box
@@ -1578,17 +1575,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1708801499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1708801496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a5480c4967d74014a8583b0d97e95e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1708801500
 BoxCollider2D:
   m_ObjectHideFlags: 0
