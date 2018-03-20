@@ -7,6 +7,12 @@ TagManager:
   - Pellet
   - UI
   - Ammo
+  - Right Cube
+  - Left Cube
+  - Enemy
+  - Portal
+  - Blue
+  - Orange
   layers:
   - Default
   - TransparentFX

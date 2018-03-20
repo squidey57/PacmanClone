@@ -15,9 +15,12 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AmmoPickUp.cs" t="Include" />
+          <e p="Blue_Stat.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
+          <e p="EnemyCollision.cs" t="Include" />
           <e p="PelletPickUp.cs" t="Include" />
           <e p="PictureMoving.cs" t="Include" />
+          <e p="Teleport.cs" t="Include" />
           <e p="UIManager.cs" t="Include" />
         </e>
       </e>
