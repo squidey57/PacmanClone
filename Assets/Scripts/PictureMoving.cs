@@ -23,21 +23,7 @@ public class PictureMoving: MonoBehaviour
 		
     }
 
-    // Update is called once per frame.
-      void Update()
-    {
-        // If the space key is pressed down
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-			
-            // Add jump power by adding a force to the rigid body.
-            _rigidbody.AddForce(new Vector2(0, _jumpSpeed*25));
-		
-            // Add jump power by changing volicity on the y axis.
- 		_rigidbody.velocity += new Vector2(0, _jumpSpeed);
-        }
-		
-    }
+    
 
     // Update is called once per physics step.
     void FixedUpdate ()

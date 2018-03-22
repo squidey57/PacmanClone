@@ -8,7 +8,7 @@ public class CameraFollow : MonoBehaviour
     public bool Lerp, Move; // Used for toggling different modes not needed in actual game.
     private GameObject _target; // target for the camera to follow.
 
-    private float _cameraLerpSpeed = 5f, _cameraMoveSpeed = 50f; // Camera movement speeds.
+    private float _cameraLerpSpeed = 20f, _cameraMoveSpeed = 500f; // Camera movement speeds.
 	
     // Use this for initialization
     void Start () {
