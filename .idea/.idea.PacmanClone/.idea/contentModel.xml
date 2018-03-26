@@ -4,8 +4,19 @@
     <e p="$USER_HOME$/.Rider2017.3/system/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_PacmanClone.2058419114.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="2D Grid Based AI" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="EnemyAStar.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="MyPathNode.cs" t="Include" />
+            <e p="PriorityQueue.cs" t="Include" />
+            <e p="SpatialAStar.cs" t="Include" />
+            <e p="TurnToWall.cs" t="Include" />
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
@@ -13,9 +24,57 @@
             </e>
           </e>
         </e>
+        <e p="Polarith" t="Include">
+          <e p="AI" t="Include">
+            <e p="Examples" t="Include">
+              <e p="Editor" t="Include">
+                <e p="EnvironmentUpdaterEditor.cs" t="Include" />
+                <e p="ObjectSpawnerEditor.cs" t="Include" />
+                <e p="VehiclePhysicsEditor.cs" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="AIState.cs" t="Include" />
+                <e p="Controllers" t="Include">
+                  <e p="RootMotionController.cs" t="Include" />
+                  <e p="VehicleController.cs" t="Include" />
+                </e>
+                <e p="EnvironmentUpdater.cs" t="Include" />
+                <e p="FramesPerSecond.cs" t="Include" />
+                <e p="MousePointer.cs" t="Include" />
+                <e p="Network" t="Include">
+                  <e p="AISync.cs" t="Include" />
+                  <e p="ContactDamage.cs" t="Include" />
+                  <e p="EnemyCannonController.cs" t="Include" />
+                  <e p="EnemySpawner.cs" t="Include" />
+                  <e p="EntityInfo.cs" t="Include" />
+                  <e p="EnvironmentAdapter.cs" t="Include" />
+                  <e p="PhysicsController2D.cs" t="Include" />
+                  <e p="PlayerController.cs" t="Include" />
+                </e>
+                <e p="ObjectCounter.cs" t="Include" />
+                <e p="ObjectSpawner.cs" t="Include" />
+                <e p="PerceiverConnector.cs" t="Include" />
+                <e p="SpriteRotation.cs" t="Include" />
+                <e p="Teleporter.cs" t="Include" />
+                <e p="TimerDestroy.cs" t="Include" />
+                <e p="TriggerArriveTarget.cs" t="Include" />
+                <e p="TriggerDisable.cs" t="Include" />
+                <e p="TriggerStateTransisation.cs" t="Include" />
+                <e p="VehiclePhysics.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Plugins" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Polarith.AI.Editor.xml" t="Include" />
+              </e>
+              <e p="Polarith.AI.xml" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Blue_Stat.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
+          <e p="GhostMove.cs" t="Include" />
           <e p="ManagerS.cs" t="Include" />
           <e p="PictureMoving.cs" t="Include" />
           <e p="PlayerMechanics.cs" t="Include" />
